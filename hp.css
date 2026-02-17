@@ -1,0 +1,49 @@
+body{
+ background-size:100% 100%;
+ background-attachment:fixed;
+}
+.active
+{
+ background-color: none;
+ text-align: center;
+}
+.active ul
+{ 
+ display: inline-flex;
+ list-style: none;
+ color: #fff;
+}
+.active ul li
+{
+ widht: 120px;
+ margin: 15px;
+ padding: 8px;
+}
+.active ul li a
+{
+ text-decoration: none;
+}
+.alert,.active ul li:hover
+{ 
+ Background: #2bab0d;
+ border-radius: 3px;
+}
+.active-center
+{
+ background-color: none;
+ text-align: center;
+}
+.active-center ul
+{ 
+ list-style: none;
+ color: #fff;
+}
+.active-center ul li
+{
+ padding: 0px;
+ margin: 0px;
+}
+.active-center ul li a
+{
+ text-decoration: none;
+}

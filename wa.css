@@ -1,0 +1,70 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #91ee91;
+  position: relative;
+  padding: 0px;
+}
+.active
+{
+ background-color: none;
+ text-align: center;
+}
+.active ul
+{ 
+ display: inline-flex;
+ list-style: none;
+ color: #fff;
+}
+.active ul li
+{
+ widht: 120px;
+ margin: 15px;
+ padding: 8px;
+}
+.active ul li a
+{
+ text-decoration: none;
+}
+.alert,.active ul li:hover
+{ 
+ Background: #2bab0d;
+ border-radius: 3px;
+}
+/* Logo styles */
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+/* Section styles */
+section {
+ padding: 10px;
+}
+
+section:not(:first-child) {
+  margin-top: 10px; /* Add margin to create space between sections */
+}
+
+section h2 {
+  color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #262626;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

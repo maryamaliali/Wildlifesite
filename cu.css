@@ -1,0 +1,31 @@
+body{
+ background-size:100% 100%;
+ background-attachment:fixed;
+ background-color: #eff8d3;
+}
+.active
+{
+ background-color: none;
+ text-align: center;
+}
+.active ul
+{ 
+ display: inline-flex;
+ list-style: none;
+ color: #fff;
+}
+.active ul li
+{
+ widht: 120px;
+ margin: 15px;
+ padding: 8px;
+}
+.active ul li a
+{
+ text-decoration: none;
+}
+.alert,.active ul li:hover
+{ 
+ Background: #2bab0d;
+ border-radius: 3px;
+}
